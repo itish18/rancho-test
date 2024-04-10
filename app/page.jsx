@@ -96,7 +96,7 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-[80%] w-full h-full mx-auto py-20">
+    <div className="xl:max-w-[80%] w-full h-full mx-auto py-20">
       <DndProvider backend={HTML5Backend}>
         <div className="flex gap-5">
           <DropZone
